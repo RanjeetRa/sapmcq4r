@@ -1,0 +1,272 @@
+[
+   {
+      "Question":"1. Your Customer wants to modify the description of a competency in a library. Where can you make this change?n Note: There are 3 correct answers to this question",
+	  "Answer":["A","B","E"] ,
+      "A":"A. In Provisioning > Manage Competencies and Skills > Competency Libraries",
+      "B":"B. In the CSV File downloaded from the competency library",
+      "C":"C. In the Performance form template XML",
+      "D":"D. In Provisioning > Company Settings",
+      "E":"E. In Admin Centre > Manage Competencies"
+   },
+   {
+      "Question":"2. What can you do with the Beta Goal Import feature? Note: There are 3 correct answers to this question",
+      "Answer":"[B,D,E]",
+      "A":"A. Transfer Goals to another Goal plan",
+      "B":"B. Delete Goals",
+      "C":"C. Align Goals",
+      "D":"D. Update Goals",
+      "E":"E. Delete Goal Comments"
+   },
+   {
+      "Question":"3. Which attribute controls the editability of the goal plan fields when you assign a Group Goal 2.0 or a Team Goal?",
+      "Answer":"[D]",
+      "A":"A. the cascade-update=\u201dpush-down\u201d attribute in field definition",
+      "B":"B. the allow-group goal=\u201dtrue\u201d attribute in obj-plan template",
+      "C":"C. the cascade-update=\u201dregular\u201d attribute in the field definition",
+      "D":"D. the configurable=\u201dtrue\u201d attribute in the objective sect",
+      "E":null
+   },
+   {
+      "Question":"4. You want to create a goal plan template. Which of the following methods are recommended? Note: There are 3 correct answers to this question",
+      "Answer":"[A,B,D]",
+      "A":"A. Download a template from the Success Store.",
+      "B":"B. Copy an existing goal plan and save as new version in Admin Centre",
+      "C":"C. Download a template from the SAP Success Factors Community",
+      "D":"D. Copy an existing goal plan XML change the plan D to a unique ID, and import it in provisioning",
+      "E":"E. Copy an existing DTD file and save it as a goal plan template file"
+   },
+   {
+      "Question":"5. Which of the following field types can be configured as a custom field in the goal plan? Note: There are 3 correct answers to this question",
+      "Answer":"[A,B,D]",
+      "A":"A. text area",
+      "B":"B. bool",
+      "C":"C. table",
+      "D":"D. enum",
+      "E":"E. comment"
+   },
+   {
+      "Question":"6. What happens when the Online Mass Finalization Threshold is set to 25 in Manage Calibration Settings and admin attempts to mass Finalize 30 sessionsat once? Note: There are 2 correct answers to this question",
+      "Answer":"[C,D]",
+      "A":"A. The threshold can be modified to 30, so the admin can finalize all sessions as an online job",
+      "B":"B. The sessions CANNOT be mass finalized, so the admin will have to finalize them individually",
+      "C":"C. The sessions will be finalized as an offline job because the total number of sessions exceeds the Online Mass Finalization Threshold of 25",
+      "D":"D. The sessions CANNOT be finalized at once; the admin needs to select 25 sessions first, and the remaining sessions afterward",
+      "E":null
+   },
+   {
+      "Question":"7. What can you do with the latest version of Continuous Performance Management 2 Note: There are 3 correct answers to this question",
+      "Answer":"A. Filter achievements by time frame",
+      "A":"B. Provide coaching advice to an employee",
+      "B":"C. Add attachments to activities",
+      "C":"D. Add private meeting notes to assist with the 1:1 meeting",
+      "D":"E. Link feedback received with achievements",
+      "E":null
+   },
+   {
+      "Question":"8. What can users do with a form during a collaborative route map step?",
+      "Answer":"[B]",
+      "A":"A. The form can be sent back and forth between the different users of the collaborative step before moving to the new step",
+      "B":"B. The form is within all the collaborative step participants\u2019 inboxes at the same time and all users can edit the form simultaneously",
+      "C":"C. The form is within all the collaborative step participants\u2019 inboxes at the same time, but only one user can make edits at a time",
+      "D":"D. The form can be sent to another user with the Get Feedback button",
+      "E": null
+   },
+   {
+      "Question":"9. You are planning to use rating-opt=\u201d1\u201d, which means everyone shares one rating box for each item except the employee who has a private self\u0002assessment rating box. Which of the following fields should you consider when defining field permissions? Note: There are 2 correct answers to this question",
+      "Answer":"[A,D]",
+      "A":"A. item-cmt rating",
+      "B":"B. Subject-item-rating",
+      "C":"C. manual-rating",
+      "D":"D. item-rating",
+      "E":null
+   },
+   {
+      "Question":"10. When using the Get Feedback functionality during the performance review process, who can a user send the form to for feedback?",
+      "Answer":"[C]",
+      "A":"A. EM+ only",
+      "B":"B. EM and EMD",
+      "C":"C. Any active user",
+      "D":"D. Users within the user\u2019s hierarchy",
+      "E":null
+   },
+   {
+      "Question":"11. Which of the following options are new enhancements in 360 Review-SAP Fiori Version that are NOT available in v11? Note: There are 2 correct answers to this question",
+      "Answer":"[A,B,D]",
+      "A":"A. Circle and Star Rating",
+      "B":"B. Stack Ranker",
+      "C":"C. Autosave",
+      "D":"D. EZ Rater",
+      "E":null
+   },
+   {
+      "Question":"12. When will ratings be displayed as a drop-down list? Note: There are 3 correct answers to this question",
+      "Answer":"[A,D,E]",
+      "A":"A. if <fm-sect-scale show-value=\u201dtrue\u201d>",
+      "B":"B. when using Matrix Grid Rating Scales",
+      "C":"C. If <fm-sect-scale show Value=\u201dfalse\u201d>",
+      "D":"D. When reverse-scale=\u201dtrue\u201d",
+      "E":"E. When reverse-scale=\u201dfalse\u201d"
+   },
+   {
+      "Question":"13. Which of these options in the Search and Filter tab under Manage Calibration Settings can you control when setting up a Calibration session? Note: There are 2 correct answers to this question",
+      "Answer":"[A,C]",
+      "A":"A. You can select additional fields to be displayed in the results table, in addition to the default search result fields",
+      "B":"B. You CANNOT select additional fields to be displayed in the results table, in addition to the default search result fields",
+      "C":"C. You can define filter fields or the filter function across all views in the Calibration session",
+      "D":"D. You can define custom filters to be used in the people search when you set up a Calibration session",
+      "E":null
+   },
+   {
+      "Question":"14. How are competencies populated in the competency section of a form? Note: There are 3 correct answers to this question",
+      "Answer":"[B,D,E]",
+      "A":"A. Administrators assign competencies to users from Admin Centre.",
+      "B":"B. Competencies are hard-coded in the competency section from Manage Templates or in the XML",
+      "C":"C. Managers assign competencies to users from Admin Centre",
+      "D":"D. Users add competencies manually in the form when the section is <Configurable=\u201dtrue\u201d>",
+      "E":"E. Competencies are mapped to the user\u2019s job role by the administrator."
+   },
+   {
+      "Question":"15. What is the main characteristic of the Ask for Feedback feature?",
+      "Answer":"[D]",
+      "A":"A. To send a copy of the performance form to anyone within the company to assess an employee\u2019s performance",
+      "B":"B. To send the performance form to a selected user to assess an employee\u2019s performance",
+      "C":"C. To send an email that contains embedded rating options to selected individuals",
+      "D":"D. To send an e-mail anyone inside or outside the company to provide comments based on an employee\u2019s performance",
+      "E":null
+   },
+   {
+      "Question":"16. Which of the following features have deprecation dates announced? Note: There are 2 correct answers to this question ",
+      "Answer":"[C,D] ",
+      "A":"A. PMv12 Acceleration ",
+      "B":"B. 360 Reviews v11 Version ",
+      "C":"C. Legacy Calibration UI ",
+      "D":"D. Legacy Continuous Performance Management ",
+      "E":null
+   },
+   {
+      "Question":"17. A customer wants to allow an HR representative to create a new form from the Performance tab for their HR reports only. What should the customer do to achieve this? Note: There are 2 correct answers to this question.",
+      "Answer":"[C,D]",
+      "A":"A. in RBP> Manage Form Templates, grant permission to Mass create form launches (Launch forms now)",
+      "B":"B. In form template settings, enable allow form creator to select anyone as the subject",
+      "C":"C. in RBP>General User Permission, grant permission to create forms.",
+      "D":"D. in form template settings, change the default targets to HR reports only",
+      "E":null
+   },
+   {
+      "Question":"18. What is required when you define a custom field in the goal plan?Note: there are 2 correct answers to this question",
+      "Answer":"[B,C]",
+      "A":"A. You must assign a field type to the field",
+      "B":"B. You must make the field reportable",
+      "C":"C. You must assign a unique ID to the field",
+      "D":"D. You must assign a field description to the field",
+      "E":null
+   },
+   {
+      "Question":"19. Your customer has 5 unique competencies for individual contributors and 5 for managers. The competencies will be translated into 11 languages andwill auto populate on a multi-language performance review form based on job code.What attribute must be shared for all translations of the same competency to meet this requirement?",
+      "Answer":"[C]",
+      "A":"A. Category",
+      "B":"B. ID",
+      "C":"C. GUID",
+      "D":"D. Library Name",
+      "E":null
+   },
+   {
+      "Question":"20. Which features can be enabled and disabled in the configuration page in admin centre for the latest version of continuous performance management? Note: There are 3 correct answers to this question",
+      "Answer":"[A,C,D]",
+      "A":"A. Ability to prevent feedback deletion by users",
+      "B":"B. Ability to add achievements",
+      "C":"C. Ability to provide discussion topics",
+      "D":"D. Ability to support multiple roles",
+      "E":"E. Ability to add activities"
+   },
+   {
+      "Question":"21. What action does the following XML code allow a user to perform from their goal plan? <permission for=\u201dcascade-push\u201d> <role-name><![CDATA[EM+]]><\/role-name> <\/permission>",
+      "Answer":"[B]",
+      "A":"A. A manager can copy a goal from their direct report\u2019s goal plan",
+      "B":"B. A manager can cascade goals to all employees in their reporting chain, as long as permission to create goals and access to the goal plan is granted for the target population",
+      "C":"C. A manager can cascade goals to their manager\u2019s goal plan",
+      "D":"D. A manager can cascade goals to all employees in their reporting chain",
+      "E":null
+   },
+   {
+      "Question":"22. You are calibrating performance formsWhat are some of the requirements for the calibration session to be successfully validated?Note: There are 3 correct answers to this question",
+      "Answer":"[A,D,E]",
+      "A":"A. The subject(s) of the calibration session must be defined",
+      "B":"B. The location of the calibration session must be specified",
+      "C":"C. The calibration session date must be defined",
+      "D":"D. A Subject\u2019s review form must be at the calibration step in the route map",
+      "E":"E. The calibration template to be used in the calibration session must be specified"
+   },
+   {
+      "Question":"23. Which of the following are available configurations in Manage Route Maps? Note: There are 2 correct answers to this question",
+      "Answer":"[C,D]",
+      "A":"A. Modify form route map",
+      "B":"B. Hide Route Map on the form",
+      "C":"C. Step Exit Reminder",
+      "D":"D. Enforce Start Date",
+      "E":null
+   },
+   {
+      "Question":"24. What can an administrator do when accessing the Delete continuous feedback page? Note: There are 2 correct answers to this question",
+      "Answer":"[A,C]",
+      "A":"A. Administrator can delete only feedback given or received by active users",
+      "B":"B. Administrator can only delete feedback given in the last three months",
+      "C":"C. The Administrator CANNOT restore the feedback once the feedback is deleted",
+      "D":"D. Administrator can access all the information, including the feedback content",
+      "E":null
+   },
+   {
+      "Question":"25. Where can you assign a job code to an employee in admin centre? Note: There are 2 correct answers to this question",
+      "Answer":"[C,D]",
+      "A":"A. Employee Files\uf0e0 Configure employee files",
+      "B":"B. Company settings-> Manage Job Roles",
+      "C":"C. Update User Information->Manager Users",
+      "D":"D. Update User Information->Employee Export",
+      "E":null
+   },
+   {
+      "Question":"26. What attribute do you insert at the beginning of each label tag to make translations active for that label in the form XML?",
+      "Answer":"[B]",
+      "A":"A. msgkey=",
+      "B":"B. msgKey=",
+      "C":"C. messagekey=",
+      "D":"D. messageKey=",
+      "E":null
+   },
+   {
+      "Question":"27. During testing you discover that a field is missing from the goal plan. When you check the XML, it appears that the field is defined and the user hascorrect permissions. What else do you need to check?",
+      "Answer":"[D]",
+      "A":"A. Plan layout",
+      "B":"B. Data model",
+      "C":"C. Role based permissions",
+      "D":"D. Goal plan type",
+      "E":null
+   },
+   {
+      "Question":"28. What happens when goal numbering is allowed in the goal plan?",
+      "Answer":"[A]",
+      "A":"A. Users can indent and out dent goals to one or more levels",
+      "B":"B. Users can move a goal out of one plan and into another",
+      "C":"C. Users can display the total goal count in the goal plan",
+      "D":"D. Users can move a goal up and down in the goal plan",
+      "E":null
+   },
+   {
+      "Question":"29. Which of the following options in 360 Reviews can be controlled from Form Template settings? Note: There are 2 correct answers to this question",
+      "Answer":"[A,B]",
+      "A":"A. Remove participants after 360 evaluation starts",
+      "B":"B. Decline to participate",
+      "C":"C. Allow managers to select external raters themselves",
+      "D":"D. Hide rater identities",
+      "E":null
+   },
+   {
+      "Question":"30. Which of the following roles does the calibration tool use to assign different responsibilities to those in the calibration process? Note: There are 3 correct answers to this question",
+      "Answer":"[B,C,E]",
+      "A":"A. Subject",
+      "B":"B. Participant",
+      "C":"C. Facilitator",
+      "D":"D. Originator",
+      "E":"E. Owner"
+   }
+]
