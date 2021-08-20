@@ -127,7 +127,7 @@ export class AppComponent {
     this.QnA.set(mykey, this.myarray);
 
 
-    for (let i = 0; i < 30; i++) {
+    for (let i = 0; i < 80; i++) {
       
       
       if (this.QnA.get(i.toLocaleString()) == null) {

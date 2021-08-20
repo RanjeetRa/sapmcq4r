@@ -268,5 +268,455 @@
       "C":"C. Facilitator",
       "D":"D. Originator",
       "E":"E. Owner"
+   },
+   {
+      "Question":"31. You are configuring hidden=threshold=\u201d2\u201d for the Direct Report category. What can happen when the subject of the form has only one direct report in the list of raters? Note: There are 2 correct answers to this question",
+      "Answer":["B","D"],
+      "A":"A. The hidden-threshold attribute can cause a message to be displayed that states the minimum is not met for the direct report category.",
+      "B":"B. The hidden-threshold attribute can cause the direct report category to roll up with another category in the detailed 360 report",
+      "C":"C. The hidden-threshold attribute can cause an error message to be displayed with the number of users in the direct report category",
+      "D":"D. The hidden-threshold attribute can cause the direct report category to be dropped from the detailed 360 report.",
+      "E":null
+   },
+   {
+      "Question":"32. In a Performance Management form, there is a Performance\/Potential summary, an Overall Summary, and a Customized Weighted Rating section where the manual ratings and calculated ratings are both enabled. Which rating is the rating of record?",
+      "Answer":["B"],
+      "A":"A.The manual rating from Customized Weighted Rating section",
+      "B":"B. The calculated rating from the Overall Summary section",
+      "C":"C. The Manual Rating from the Overall Summary section",
+      "D":"D. The Manual rating from the Performance\/Potential Summary",
+      "E":null
+   },
+   {
+      "Question":"33. Which options are available in Form template settings to change in-progress forms? Note : There are 2 correct answers to this question ",
+      "Answer":["C","D"],
+      "A":"A. Rich text editor for PM and 360",
+      "B":"B. Enable Previous step button",
+      "C":"C. Enable form routing to previous step",
+      "D":"D. Disable send button",
+      "E":null
+   },
+   {
+      "Question":"34. What must you consider when using job families and roles?",
+      "Answer":["D"],
+      "A":"A. Job families must be defined for the major job levels within the organization",
+      "B":"B. An employee can be assigned to multiple job codes",
+      "C":"C. Job roles can be created without assigning them to a job family",
+      "D":"D. Multiple Job codes can be assigned to each job role",
+      "E":null
+   },
+   {
+      "Question":"35. Which of the following scale type options are supported in 360 reviews-fiori version? Note: there are 3 correct answers to this question",
+      "Answer":["A","D","E"],
+      "A":"A.STAR",
+      "B":"B.HORIZONTAL_RADIO",
+      "C":"C.FREETEXT",
+      "D":"D.DROPDOWN",
+      "E":"E.CIRCLE"
+   },
+   {
+      "Question":"36. What is the recommended encoding for the translation CSV file?",
+      "Answer":["C"],
+      "A":"A. US-ASCI",
+      "B":"B. Western European (ISO)",
+      "C":"C. Unicode (UTF-8)",
+      "D":"D. ANSI",
+      "E":null
+   },
+   {
+      "Question":"37. Your customer wants to change the default labels in the summary section, for both manual overall rating and calculated overall rating Where can the customer do this? Note: There are 2 correct answers to this question ",
+      "Answer":["A","C"],
+      "A":"A. In XML<calc-rating-label>",
+      "B":"B. In Manage Templates>Choose an alternate label for the rating field",
+      "C":"C. In XML<overall-rating-label>",
+      "D":"D. In XML<calc-summary-rating-label>",
+      "E":null
+   },
+   {
+      "Question":"38. What can you do in Admin Centre-> Form Template Settings? Note: There are 2 correct answers to this question ",
+      "Answer":["A","B"],
+      "A":"A. Download the latest XML file of a template",
+      "B":"B. Upload an XML file in order to create a new template",
+      "C":"C. Upload an XML file in order to update an existing template",
+      "D":"D. Delete a template",
+      "E":null
+   },
+   {
+      "Question":"39. What can you do to a competency in Admin Centre? Note: There are 2 correct answers to this question ",
+      "Answer":["B","C"],
+      "A":"A. Remove the competency from existing forms",
+      "B":"B. Mark the competency as core",
+      "C":"C. Associate a competency with an achievement",
+      "D":"D. Edit the competency description",
+      "E":null
+   },
+   {
+      "Question":"40. Which of the following section types can you include in a 360 Review form?Note: There are 2 correct answers to this question",
+      "Answer":["B","C"],
+      "A":"A. Custom section",
+      "B":"B. Mid-Year section",
+      "C":"C. Customized Weighted Rating section",
+      "D":"D. Obj\/Comp Summary section",
+      "E":null
+   },
+   {
+      "Question":"41. Which route map step type allows you to use a unique user ID to identify the sole user permissioned for that step?",
+      "Answer":["D"],
+      "A":"A. Collaborative Step",
+      "B":"B. Iterative Step",
+      "C":"C. Single Role Step",
+      "D":"D. Evaluation Step",
+      "E":null
+   },
+   {
+      "Question":"42. What can you do in the latest version of Continuous Feedback menu?Note: There are 2 correct answers to this question",
+      "Answer":["A","B"],
+      "A":"A. Decline a feedback request",
+      "B":"B. Only show feedback with a linked activity",
+      "C":"C. Access the profile card to drill down into employee details",
+      "D":"D. Only show feedback with a linked achievement",
+      "E":null
+   },
+   {
+      "Question":"43. If you are using distribution guidelines in calibration, where are they visible? Note: There are 3 correct answers to this question ",
+      "Answer":["A","B","E"],
+      "A":"A. Bin View",
+      "B":"B. Executive Review",
+      "C":"C. Grid View",
+      "D":"D. List View",
+      "E":"E. Dashboard View"
+   },
+   {
+      "Question":"44. Which of the following permissions can you configure in the goal plan template?Note: there are 3 correct answers to this question",
+      "Answer":["A","B","C"],
+      "A":"A. Cascade push",
+      "B":"B. Move goal",
+      "C":"C. Share goal",
+      "D":"D. Mass assign goal",
+      "E":"E. Lock goal"
+   },
+   {
+      "Question":"45. Where can you configure permissions for the other\u2019s rating tab in a performance form template? Note: There are 3 correct answers to this question ",
+      "Answer":["A","D","E"],
+      "A":"A. in Manage Templates>general settings>other rating tab permissions",
+      "B":"B. in XML, defining tab-permission to others-rating to control tab access for a ratable section",
+      "C":"C. in XML, defining others-ratingtab-item-permission in the fm-meta section",
+      "D":"D. in XML, defining others-ratingtab-item-permission to control access at item level for a ratable section",
+      "E":"E. In XML, defining others-ratingtab-permission to control tab access for a ratable section"
+   },
+   {
+      "Question":"46. In the summary section with manual rating enabled, which of the following is considered a best practice to ensure a performance form will have a rating of record? Note: There are 2 correct answers to this question ",
+      "Answer":["C","D"],
+      "A":"A.Enable Allow override unrated to ensure the form has an overall rating if No manual overall rating is filled",
+      "B":"B. Enable Enforce Maximum Overall Score (EMOS) to define a rule to enforce that an overall score is populated in the form",
+      "C":"C. Enable Allow override Unrated and define Manual Overall Rating as required field for all steps",
+      "D":"D. Define Manual overall Rating as a require field for the role providing the final rating (like EM)",
+      "E":null
+   },
+   {
+      "Question":"47. In a 360 Review, once the employee nominates the participants, the manager validates the list in the manager approval step, you do not want the manager to modify the participant list, but instead send the form back to the employee if any corrections are needed. What do you need to achieve this? Note: there are 2 correct answers to this question ",
+      "Answer":["B","D"],
+      "A":"A. Define <enable-previous-step-button> in the fm-meta section and set to True",
+      "B":"B. Enable the Previous step button in Manage Templates",
+      "C":"C. Remove button permission for add modifier",
+      "D":"D. Disable the participant section so it becomes read-only for the manager",
+      "E":null
+   },
+   {
+      "Question":"48. Which of the following are part of the edit form attributes section in 360 reviews? Note: There are 3 correct answers to this question ",
+      "Answer":["B","D","E"],
+      "A":"A. weight-lockdown=\u201dtrue\u201d",
+      "B":"B. configurable=\u201dtrue\u201d",
+      "C":"C. anonym=\u201dtrue\u201d",
+      "D":"D. no-rate=\u201dfalse\u201d",
+      "E":"E. embed-cdp-goals=\u201dtrue\u201d"
+   },
+   {
+      "Question":"49. What is the purpose of the Coaching Advisor\/Give Advice functionality? Note: There are 2 correct answers to this question. ",
+      "Answer":["A","D"],
+      "A":"A. To give a user information on how to strengthen a competency",
+      "B":"B. To give a user an overall performance rating based on calculations",
+      "C":"C. To give a user guidance to create SMART goals",
+      "D":"D. To give user developmental suggestions",
+      "E":null
+   },
+   {
+      "Question":"50. What is the purpose of the user-defined step in a single step route map?",
+      "Answer":["A"],
+      "A":"A.To ensure all performance forms are routed to the same user in that step",
+      "B":"B. To split the sections of the form and send each of them to different users for validation",
+      "C":"C. To assign the form to a group of people",
+      "D":"D. To make sure the form comes back to the inbox of the user at the end of the workflow",
+      "E":null
+   },
+   {
+      "Question":"51. Which fields in the Review Information section of the performance form can be made editable in the Form Template Settings? Note: There are 3 correct answers to this question ",
+      "Answer":["A","C","E"],
+      "A":"A. Due Date",
+      "B":"B. Section Name",
+      "C":"C. End Date",
+      "D":"D. Originator",
+      "E":"E. Start Date"
+   },
+   {
+      "Question":"52. Which of the following can a manager use from the Team overview tab? Note: There are 3 correct answers to this question ",
+      "Answer":["A","D","E"],
+      "A":"A. The Ask for Feedback button, to send an email to internal or external users",
+      "B":"B. The Confirm 1:1 meeting button, to send a form to the signature step without opening it",
+      "C":"C. The Get Feedback feature, to collect additional comments on the form",
+      "D":"D. The Stack Ranker, to evaluate competencies for their direct reports",
+      "E":"E. The Stack Ranker, to evaluate objectives for their direct reports"
+   },
+   {
+      "Question":"53. What do you need to do to configure the ability of a manager to lock an employee\u2019s goal plan in the goal management? Note : There are 3 correct answers to this question ",
+      "Answer":["A","B","C"],
+      "A":"A. Give the manager permission to access the employee\u2019s goal plan template in role based permission",
+      "B":"B. Define <obj-plan-states> in the goal plan template XML",
+      "C":"C. Configure <permission for =\u201dchange state\u201d> to the manager in the goal plan template XML",
+      "D":"D. Configure the \u201cobj-edit\u201d in a performance form template XML",
+      "E":"E. Configure the <plan-layout> to include switch button"
+   },
+   {
+      "Question":"54. Where can you disable the external email address pertaining to the Ask for Feedback functionality?",
+      "Answer":["B"],
+      "A":"A. Provisioning-> Company Settings",
+      "B":"B. Admin Center-> Performance Management-> Form Template Settings",
+      "C":"C. Admin Center-> Performance Management-> Performance Management Feature Settings",
+      "D":"D. In the form template XML with a specific tag",
+      "E":null
+   },
+   {
+      "Question":"55. What happens when you define a calibration session owner?",
+      "Answer":["C"],
+      "A":"A. The calibration session can be assigned to only one owner",
+      "B":"B. The owner can set export permissions for the session",
+      "C":"C. The participants and subjects can be automatically populated, based on the reporting hierarchy of the owner",
+      "D":"D. The owner can view their calibration data on the executive review tab",
+      "E":null
+   },
+   {
+      "Question":"56. In what scenario would you use the get feedback function on a performance form? Note : There are 2 correct answers to this question ",
+      "Answer":["A","B"],
+      "A":"A. When you want to send the actual form to another user so comments can be added to the form",
+      "B":"B. When you want to send the actual form to another user so ratings can be added to the form",
+      "C":"C. When you want to collect feedback from different users via e-mail",
+      "D":"D. when you want to collect the feedback in the supporting information pod",
+      "E":null
+   },
+   {
+      "Question":"57. Which of the following are possible for the Manager-initiated calibration session? Note: There are 2 correct answers to this question ",
+      "Answer":["A","B"],
+      "A":"A. Direct Reports can be added as participants",
+      "B":"B. Direct reports can be added as Subjects",
+      "C":"C. Calibration views can be modified by Managers",
+      "D":"D. Default facilitators cannot be changed",
+      "E":null
+   },
+   {
+      "Question":"58. Competencies were mapped to job roles in the system. However, when performance forms were launched, the competencies did not display in the job specific competency section for one employee, but they did for another. What is the most likely reason for this issue?",
+      "Answer":["C"],
+      "A":"A. The category-filter opt attribute in the competency section was not specified",
+      "B":"B. The competency GUID was used when configuring the competency section, instead of the competency ID",
+      "C":"C. The job role is NOT mapped with the exact job code as it appears in the employee data file",
+      "D":"D. The auto sync option in the competency section was NOT enabled",
+      "E":null
+   },
+   {
+      "Question":"59. Which of the following apply to the rater section? Note: There are 2 correct answers to this question ",
+      "Answer":["B","C"],
+      "A":"A. Custom roles CANNOT be included as participants",
+      "B":"B. The list pre-populates with participants based on the relationship of their role to the employee being evaluated",
+      "C":"C. warning or error messages can be defined if the total number of participants exceeded\/NOT met",
+      "D":"D. Categories can always be removed if the user has permissions to edit the section",
+      "E":null
+   },
+   {
+      "Question":"60. The standard goal plan template includes four goal categories. Your customer wants to use only three of the standard categories How do you delete a goal category from the goal plan template? Note: There are 2 correct answers to this question",
+	  "Answer":["B","C"]  ,
+      "A":"A. Remove the permission to view the category in the goal plan XML template",
+      "B":"B. Delete all the code for the unwanted category from the goal plan XML template",
+      "C":"C. Delete the plan layout section from the goal plan XML template",
+      "D":"D. Choose the delete icon next to the category name in admin centre-> manage templates",
+      "E":null
+   },
+   {
+      "Question":"61. Which of the following are unique admin actions for 360 reviews that are not available in performance forms? Note: There are 3 correct answers to this question ",
+      "Answer":["A","C","E"],
+      "A":"A. Change participant category",
+      "B":"B. Restore Deleted forms",
+      "C":"C. Mass Decline forms",
+      "D":"D. Change form dates",
+      "E":"E. Restore Completed forms"
+   },
+   {
+      "Question":"62. What can an administrator do with the Launch forms tool? Note: There are 3 correct answers to this question ",
+      "Answer":["A","C","D"],
+      "A":"A. Disable Ask for Feedback functionality for the forms being launched",
+      "B":"B. Set Specific form template dates for the forms being launched",
+      "C":"C. Select employees from Dynamic Groups",
+      "D":"D. Edit introduction texts for custom sections",
+      "E":"E. Remove one of the form sections"
+   },
+   {
+      "Question":"63. A customer wants goals to be private by default when they are created, and to be visible only to employees and managers. Managers can also changethe visibility to public from the goal plan itself. If they choose to. Which steps do you need to configure in the goal plan to achieve this?",
+      "Answer":["B"],
+      "A":"A. new-obj-share-status-public=\u201dtrue\u201d Share-confirm=\u201dtrue\u201d <permission for=\u201dmove\u201d <role-name-><![CDATA[E]]><\/role-name> <role-name-><![CDATA[EM]]><\/role-name> <\/permission>",
+      "B":"B. new obj-share-status-public=\u201dfalse\u201d Share-confirm=\u201dtrue\u201d Use-text-for-privacy=\u201dtrue\u201d <permission for=\u201dprivate-goals\u201d> <role-name><![CDATA[E]><\/role-name> <role-name><![CDATA[EM]]><\/role-name> <\/permission> <permission for=\u201dchange-state\u201d> <role-name><![CDATA[EM]]><\/role-name> <\/permission>",
+      "C":"C. new-obj-share-status-public=\u201dfalse\u201d Use-text-for-privacy=\u201dfalse\u201d <permission for=\u201dprivate-access\u201d> <role-name><![CDATA[E]><\/role-name> <role-name><![CDATA[EM]]><\/role-name> <\/permission> <permission for=\u201dshare\u201d> <role-name><![CDATA[EM]]><\/role-name> <\/permission>",
+      "D":"D. new-obj-share-status-public=\u201dfalse\u201d Share-confirm=\u201dfalse\u201d <permission for=\u201dprivate-access\u201d> <role-name><![CDATA[E]]><\/role-name> <role-name><![CDATA[EM]]><\/role-name> <\/permission> <permission for=\u201dshare\u201d> <role-name><![CDATA[EM]]><\/role-name> <\/permission>  ",
+      "E":null
+   },
+   {
+      "Question":"64. What permissions can be given to facilitators for approved sessions? Note: There are 3 correct answers to this question ",
+      "Answer":["A","D","E"],
+      "A":"A.Finalize",
+      "B":"B. Read",
+      "C":"C. Write",
+      "D":"D. Export",
+      "E":"E. Delete"
+   },
+   {
+      "Question":"65. What does the \u201cenable force route button in validation step\u201d calibration feature do?",
+      "Answer":["D"],
+      "A":"A. Automatically routes form to the next step in the route map after a calibration session is finalized",
+      "B":"B. Automatically populates valid participants and subjects based on the calibration session owner",
+      "C":"C. Enables the option to route forms into the calibration route map step when setting up a calibration session",
+      "D":"D. Enables the option for the facilitator to edit ratings and finalize the forms in the calibration session",
+      "E":null
+   },
+   {
+      "Question":"66. What are some of the features of the customized weighted rating section in the performance management form? Note: There are 2 correct answers to this question ",
+      "Answer":["C","D"],
+      "A":"A. you can display an overall comment",
+      "B":"B. you can add custom elements",
+      "C":"C. The section displays weights configured in business rules",
+      "D":"D. The section displays all official ratings given at previous step",
+      "E":null
+   },
+   {
+      "Question":"67. What issues can you face if Goal Management performance management sync up option is NOT enabled? Note: There are 2 correct answers to this question ",
+      "Answer":["B","D"],
+      "A":"A. The list of assigned competencies might NOT be updated after a change of job code if performance forms have Not been opened",
+      "B":"B. Variable pay will NOT be able to get the up-to-date goal management data if performance forms have not been opened since the last modification coming from goal management",
+      "C":"C. The employee information section will never get updated after form launch if performance forms are not opened after a modification on goal management",
+      "D":"D. Performance management reports might include expired goal management data if performance forms have not been opened since the last modification coming from goal management",
+      "E":null
+   },
+   {
+      "Question":"68. Where can you export and import translations of a performance form in admin centre?",
+      "Answer":["B"],
+      "A":"A. In text replacement",
+      "B":"B. in Manage form label translations",
+      "C":"C. in manage languages",
+      "D":"D. in import translations",
+      "E":null
+   },
+   {
+      "Question":"69. A user is uploading attachments to activities in continuous performance management Which of the following are possible?  Note: there are 2 correct answers to this question",
+	  "Answer":["A","D"],
+      "A":"A. The user can upload a maximum of 5 attachments per activity",
+      "B":"B. The user can only download an attachment they have previously uploaded",
+      "C":"C. The user can upload attachments to activities in both legacy and latest CPM versions",
+      "D":"D. The user can upload an attachment to their own activity or to an activity created on their behalf",
+      "E":null
+   },
+   {
+      "Question":"70. What happens when the minimum\/maximum goal count per category is set in the goal plan?",
+      "Answer":["C"],
+      "A":"A. When the user creates goals the same minimum\/maximum value must be used for each of the goals.",
+      "B":"B. When a user creates a goal outside the minimum\/maximum goal limits, the system provides hard warning and the user cannot proceed",
+      "C":"C. When a user creates a goal outside the minimum\/maximum goal limits, the system provides soft warnings and the user can proceed",
+      "D":"D. When the user creates the goal the minimum\/maximum limit for the overall goal must be defined ",
+      "E":null
+   },
+   {
+      "Question":"71. Which of the following are characteristics of an EZ rater section? Note: there are 3 correction answers to this question ",
+      "Answer":["B","D","E"],
+      "A":"A. <sect-mode=\u201dEZ-Rater\u201d> can be configured for competency sections only, to compare ratings side by side",
+      "B":"B. <sect-mode=\u201dEZ-Rater\u201d> can be configured for Goal and Competency sections to compare ratings side by side",
+      "C":"C. EZ-Rater can be configured in admin centre-> Manage Templates",
+      "D":"D. EZ Rater includes an on form Gap Analysis graph",
+      "E":"E. EZ Rater will display as a collapsed section by default"
+   },
+   {
+      "Question":"72. Which of the following are best practices to implement translation projects? Note: There are 2 correct answers to this question ",
+      "Answer":["B","C"],
+      "A":"A. Maintain one workbook for each language to be implemented",
+      "B":"B. Validate the translation in the test instance before copying to the production instance",
+      "C":"C. Require configuration sign-off from the customer before beginning the language configuration workbook",
+      "D":"D. Make sure the implementation consultant is the one responsible for the master file with the latest updates",
+      "E":null
+   },
+   {
+      "Question":"73. What happens if you freeze the job title field in the employee information section of the performance management form template?",
+      "Answer":["B"],
+      "A":"A. if the employee data is updated while the form is in progress, the job title will update but the job Role will not be updated",
+      "B":"B. the job title on the form will not update if the employee data is updated while the form is in progress",
+      "C":"C. the job title on the form will be hidden if the employee data is updated while the form is in progress",
+      "D":"D. The job title on the form will update if the employee data is updated while the form is in progress",
+      "E":null
+   },
+   {
+      "Question":"74. Which of the following applies to the employee information section?",
+      "Answer":["D"],
+      "A":"A. New elements will become visible in the display options in manage templates",
+      "B":"B. Elements cannot be reordered",
+      "C":"C. First Name and last Name CANNOT be removed",
+      "D":"D. Custom elements can be included",
+      "E":null
+   },
+   {
+      "Question":"75. Your customer is using an obj\/comp summary section including one goal section and two competency sections. The customer splays section weights in the performance review form. the requirement is that goals and competencies be equally important for the calculated ratingBased on this requirement and best practices, what weights do you assign to the sections?",
+      "Answer":["D"],
+      "A":"A. 100% for Goal section and 50% for each competency section",
+      "B":"B. Weight all sections equally so they add up to 100%",
+      "C":"C. 50% for goal section and 100% for each of the competency section",
+      "D":"D. 50% for the goal section and 25% for each of the competency sections",
+      "E":null
+   },
+   {
+      "Question":"76. What is enabled when you configure the Reject button? Note: There are 2 correct answers to this question ",
+      "Answer":["B","C"],
+      "A":"A. Managers can recall the form from signature step in Team Overview",
+      "B":"B. Forms can be routed to the previous step in the modify stage",
+      "C":"C. Users can reject the form in the signature step and send it back to be edited",
+      "D":"D. Administrators can route the form",
+      "E":null
+   },
+   {
+      "Question":"77. Which of the following are possible for the distribution range and group of ratings in guidelines for calibration sessions? Note: There are 3 correct answers to this question ",
+      "Answer":["B","C","E"],
+      "A":"A. Distribution guidelines must sum up to 100% for each calibration elements",
+      "B":"B. Multiple ratings can be grouped together under the same distribution guideline",
+      "C":"C. Operators such as <,>,>=, <=, = and \u201cis between\u201d are supported",
+      "D":"D. Any data source, other than performance, supports distribution range and group of ratings is guidelines",
+      "E":"E. A warning message will display to adjust subjects based on guidelines in Bin View, if ranges are not met"
+   },
+   {
+      "Question":"78. How many rating scales can you use in a performance form?",
+      "Answer":["B"],
+      "A":"A. One per form",
+      "B":"B. One per ratable section",
+      "C":"C. One per ratable item",
+      "D":"D. One per section",
+      "E":null
+   },
+   {
+      "Question":"79. Your customer wants to ensure that all review forms are sent to the second step of their route map on a specified date. What settings do you need to make to ensure this take place?",
+      "Answer":["D"],
+      "A":"A. Define the \u201cDue Date\u201d for the first step in the route map configuration in form template settings  Select the \u201cAutomatic send on due date\u201d option in step 1 of the route map",
+      "B":"B. Define the \u201cExit Date\u201d for the first step in the route map configuration in manage route mapsSelect the \u201cautomatic send on due date\u201d option in step 1 of the route map and also select the additional option \u201calways send regardless of validation\u201d",
+      "C":"C. Define the \u201cStart Date\u201d for the first step in the route map configuration in Manage Route Maps  Select the \u201cEnforce Start Date\u201d option in Step 2 of the route map",
+      "D":"D. Define the \u201cDue Date\u201d for the first step in the route map configuration in Manage Route MapsSelect the \u201cAutomatic send on due date\u201d option in step 1 of the route map and also select the additional option \u201cAlways send regardless of validation\u201d",
+      "E":null
+   },
+   {
+      "Question":"80. You are editing the global settings in the goal plan template. The following settings are made: Share-confirm=\u201dtrue\u201d and unshare-confirm=\u201dtrue\u201d How would you expect the system to behave ",
+      "Answer":["A"],
+      "A":"A. When you change the status of a goal, a notification appears",
+      "B":"B. When the visibility of a goal is set to private, a notification does NOT appear",
+      "C":"C. when the goal completion is set to 100%, a notification appears.",
+      "D":"D. When you change the visibility of a goal, a notification appears ",
+      "E":null
    }
 ]

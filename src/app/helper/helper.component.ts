@@ -14,16 +14,16 @@ export class HelperComponent implements OnInit {
 
   ngOnInit(): void {
     console.log("inside helper ngOniinit");
-    this.dataservice.getJSON().subscribe(
-      data => {
-        this.ques = data;
-        //console.log(this.ques[0]['Question']); 
+    // this.dataservice.getJSON().subscribe(
+    //   data => {
+    //     this.ques = data;
+    //     //console.log(this.ques[0]['Question']); 
 
-        localStorage.setItem(this.quecontent , this.ques);
+    //     localStorage.setItem(this.quecontent , this.ques);
 
         
-      }
-    );
+    //   }
+    // );
   }
 
 }
