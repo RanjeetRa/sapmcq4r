@@ -88,7 +88,7 @@ export class AppComponent {
     this.opt5 = myques['E'];
     console.log("##################################################################");
     //this.onRefresh();
-    window.alert("Please click refresh button before attempting next question");
+  //  window.alert("Please click refresh button before attempting next question");
   }
   onRefresh() {
     this.tempa = 1;

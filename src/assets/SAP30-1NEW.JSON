@@ -343,7 +343,7 @@
    },
    {
       "Question":"39. What can you do to a competency in Admin Centre? Note: There are 2 correct answers to this question ",
-      "Answer":["B","C"],
+      "Answer":["B","D"],
       "A":"A. Remove the competency from existing forms",
       "B":"B. Mark the competency as core",
       "C":"C. Associate a competency with an achievement",
@@ -352,7 +352,7 @@
    },
    {
       "Question":"40. Which of the following section types can you include in a 360 Review form?Note: There are 2 correct answers to this question",
-      "Answer":["B","C"],
+      "Answer":["B","D"],
       "A":"A. Custom section",
       "B":"B. Mid-Year section",
       "C":"C. Customized Weighted Rating section",
