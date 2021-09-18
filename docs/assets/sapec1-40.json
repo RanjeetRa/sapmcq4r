@@ -9,7 +9,7 @@
       "E":null
    },
    {
-      "Question":"n2. Your customer has a subsidiary in another country that requires an approval workflow nwhenever a new position is created. You created a business rule to trigger a workflow when nthat legal entity is chosennWhere in the position object do you need to attach the rule?n",
+      "Question":"2. Your customer has a subsidiary in another country that requires an approval workflow nwhenever a new position is created. You created a business rule to trigger a workflow when nthat legal entity is chosennWhere in the position object do you need to attach the rule?n",
       "Answer":["D"],
       "A":"A. Rules section in the legal entity fieldn",
       "B":"B. Initialize Rules section in the position objectn",
@@ -18,7 +18,7 @@
       "E":null
    },
    {
-      "Question":"n3. You need to create one-to-many association from location to legal entity. You also need to nconfigure filtering of the location field based on the company field in the job information nportlet.nwhat do you need to add to the data models?n",
+      "Question":"3. You need to create one-to-many association from location to legal entity. You also need to nconfigure filtering of the location field based on the company field in the job information nportlet.nwhat do you need to add to the data models?n",
       "Answer":["C","D"],
       "A":"A. <association> as part of <hris-element id=u201djobinfou201d>n",
       "B":"B. <field criteria> as part of <hris-field=u201djobInfou201d>n",
@@ -27,7 +27,7 @@
       "E":null
    },
    {
-      "Question":"n4. Which HR objects support import restrictions?nNote: There are 3 correct answers to this questionn",
+      "Question":"4. Which HR objects support import restrictions?nNote: There are 3 correct answers to this questionn",
       "Answer":["B","C","E"],
       "A":"A. Employment Detailsn",
       "B":"B. Job Informationn",
@@ -36,7 +36,7 @@
       "E":"E. Compensation Informationn"
    },
    {
-      "Question":"n5. You want to add custom field in the job information block on the employee file and make it nvisible for 2 countries, but NOT visible for the other 8 countries.nHow can you do this?n",
+      "Question":"5. You want to add custom field in the job information block on the employee file and make it nvisible for 2 countries, but NOT visible for the other 8 countries.nHow can you do this?n",
       "Answer":["B"],
       "A":"A. Enable the custom field in job information and add the custom field in the 2 country nspecific job information with edit visibilityn",
       "B":"B. Enable the custom field in the country specific job information and use a business rules nto set edit visibility for the 2 countriesn",
@@ -45,7 +45,7 @@
       "E":null
    },
    {
-      "Question":"n6. Which pages support onInit business rules?nNote: there are 2 correct answers for this questionn",
+      "Question":"6. Which pages support onInit business rules?nNote: there are 2 correct answers for this questionn",
       "Answer":["C","D"],
       "A":"A. Job Information History pagen",
       "B":"B. Manage Organization, Pay and Job Structuresn",
@@ -54,7 +54,7 @@
       "E":null
    },
    {
-      "Question":"n7. According to SAP guidelines, what can you do in the event picklist when configuring events nand event reasons?nNote: There are 3 correct answers to this questionn",
+      "Question":"7. According to SAP guidelines, what can you do in the event picklist when configuring events nand event reasons?nNote: There are 3 correct answers to this questionn",
       "Answer":["A","D","E"],
       "A":"A. Change the statusn",
       "B":"B. Change the external code of an eventn",
@@ -63,7 +63,7 @@
       "E":"E. Add a new language translationn"
    },
    {
-      "Question":"n8. Which object supports partial imports?nNote : There are 2 correct answers to this questionn",
+      "Question":"8. Which object supports partial imports?nNote : There are 2 correct answers to this questionn",
       "Answer":["B","C"],
       "A":"A. Job Relationshipsn",
       "B":"B. Employment Detailsn",
@@ -72,7 +72,7 @@
       "E":null
    },
    {
-      "Question":"n9. You want to configure a business rule that will automatically propagate job title from the job nclassification when a new employee is hirednWhat object will you chose as a base object?n",
+      "Question":"9. You want to configure a business rule that will automatically propagate job title from the job nclassification when a new employee is hirednWhat object will you chose as a base object?n",
       "Answer":["A"],
       "A":"A. Job informationn",
       "B":"B. Job classificationn",
@@ -81,7 +81,7 @@
       "E":null
    },
    {
-      "Question":"n10. Which actions can you perform with the import and export data tool?nNote: there are 2 correct answers to this questionn",
+      "Question":"10. Which actions can you perform with the import and export data tool?nNote: there are 2 correct answers to this questionn",
       "Answer":["C","D"],
       "A":"A. Import employee recordsn",
       "B":"B. Employee Data exportn",
@@ -90,7 +90,7 @@
       "E":null
    },
    {
-      "Question":"n11. Which admin center tools would you use to configure the visibility and mandatory field nattributes of legacy and MDF foundation objects?n",
+      "Question":"11. Which admin center tools would you use to configure the visibility and mandatory field nattributes of legacy and MDF foundation objects?n",
       "Answer":["A","B","E"],
       "A":"A. Configure object definitionsn",
       "B":"B. Import/Export corporate data modeln",
@@ -99,7 +99,7 @@
       "E":"E. Import/export country/region specific corporate data modeln"
    },
    {
-      "Question":"n12. What field of the country specific element corporate address is required in the corporate ndata model?n",
+      "Question":"12. What field of the country specific element corporate address is required in the corporate ndata model?n",
       "Answer":["B"],
       "A":"A. Address1n",
       "B":"B. Countryn",
@@ -108,7 +108,7 @@
       "E":null
    },
    {
-      "Question":"n13. Your customer needs to set up a workflow to direct approval processes to the head of a nbusiness unit. What steps would you take to complete their requirement?nNote: there are 2 correct answers to this questionn",
+      "Question":"13. Your customer needs to set up a workflow to direct approval processes to the head of a nbusiness unit. What steps would you take to complete their requirement?nNote: there are 2 correct answers to this questionn",
       "Answer":["A","B"],
       "A":"A. Manage workflow groups > Create dynamic groupn",
       "B":"B. Manage organization pay and job structures create>workflow configurationn",
@@ -117,7 +117,7 @@
       "E":null
    },
    {
-      "Question":"n14. What is generic object FoTranslation used for in Employee central?n",
+      "Question":"14. What is generic object FoTranslation used for in Employee central?n",
       "Answer":["B"],
       "A":"A. To translate any generic objects records in the instancen",
       "B":"B. To translate MDF FO recordsn",
@@ -126,7 +126,7 @@
       "E":null
    },
    {
-      "Question":"n15. Which elements are part of employee profile configuration in the succession data model?nNote : there are 2 correct answers to this questionn",
+      "Question":"15. Which elements are part of employee profile configuration in the succession data model?nNote : there are 2 correct answers to this questionn",
       "Answer":["A","C"],
       "A":"A. Standard Elementsn",
       "B":"B. HRIS actionsn",
@@ -135,7 +135,7 @@
       "E":null
    },
    {
-      "Question":"n16. How to the talent approval group and the finance controller participate in the workflow nshown in the attached screenshot? : THERE IS NAN IMAGE PLEASE REFER PDF DUMPn",
+      "Question":"16. How to the talent approval group and the finance controller participate in the workflow nshown in the attached screenshot? : THERE IS NAN IMAGE PLEASE REFER PDF DUMPn",
       "Answer":["B"],
       "A":"A. . anyone in the talent approval group can add commentsn. the finance controller receives an email notification after each approval stepn",
       "B":"B. . anyone in the talent approval group can add commentsn. the finance controller receives an email notification when the workflow is completedn",
@@ -144,7 +144,7 @@
       "E":null
    },
    {
-      "Question":"n17. Your client is live with the employee transfer process in the production instance. The nworkflow shown in the screenshot is triggered when transfer of an employee is initiated.nWhat is the expected behavior of this workflow?nNote: there are 2 correct answers to this question. : THERE IS NAN IMAGE PLEASE REFER PDF DUMPn",
+      "Question":"17. Your client is live with the employee transfer process in the production instance. The nworkflow shown in the screenshot is triggered when transfer of an employee is initiated.nWhat is the expected behavior of this workflow?nNote: there are 2 correct answers to this question. : THERE IS NAN IMAGE PLEASE REFER PDF DUMPn",
       "Answer":["B","C"],
       "A":"A. An approver of WF_Employee_Transfer can automatically route this request to another napprover during vacation.n",
       "B":"B. WF_Employee_Transfer is NOT triggered if the transfer date of the employee is in the nfuture. n",
@@ -153,7 +153,7 @@
       "E":null
    },
    {
-      "Question":"n18. Your customer would like the employee class field from the employeeu2019s job information nportlet to be available in performance formsnWhich section of the succession data model must you configure to meet this requirement?n",
+      "Question":"18. Your customer would like the employee class field from the employeeu2019s job information nportlet to be available in performance formsnWhich section of the succession data model must you configure to meet this requirement?n",
       "Answer":["B"],
       "A":"A. <background-element>n",
       "B":"B. <hris-sync-mappings>n",
@@ -162,7 +162,7 @@
       "E":null
    },
    {
-      "Question":"n19. Where do you create a new event reason?n",
+      "Question":"19. Where do you create a new event reason?n",
       "Answer":["C"],
       "A":"A. In the configure business rules tooln",
       "B":"B. In the configure object definitions tooln",
@@ -171,7 +171,7 @@
       "E":null
    },
    {
-      "Question":"n20. A label for one field in the job info element is NOT translated. While all other fields labels are ntranslated. An employee has selected the German language in their systemnWhat happens when this employee view the untranslated field?n",
+      "Question":"20. A label for one field in the job info element is NOT translated. While all other fields labels are ntranslated. An employee has selected the German language in their systemnWhat happens when this employee view the untranslated field?n",
       "Answer":["C"],
       "A":"A. The employee will see an error messagen",
       "B":"B. The employee will see the field with a blank labeln",
@@ -180,7 +180,7 @@
       "E":null
    },
    {
-      "Question":"n21. You have been tasked with updating the job title of the mechanical engineer position record. nThe mechanical engineer record currently has four incumbentsnWhich action will ensure that you will NOT receive the option to synchronize the change to nthe incumbents?n",
+      "Question":"21. You have been tasked with updating the job title of the mechanical engineer position record. nThe mechanical engineer record currently has four incumbentsnWhich action will ensure that you will NOT receive the option to synchronize the change to nthe incumbents?n",
       "Answer":["C"],
       "A":"A. Modify the record with Manage Positionn",
       "B":"B. Modify the record with Manage datan",
@@ -189,7 +189,7 @@
       "E":null
    },
    {
-      "Question":"n22. How is a country specific field created for MDF foundation objects?n",
+      "Question":"22. How is a country specific field created for MDF foundation objects?n",
       "Answer":["D"],
       "A":"A. As an HRIS element in the corporate data model with a composite association to the nMDF foundation objectn",
       "B":"B. As a generic object with a composite associate to the MDF foundation objectn",
@@ -198,7 +198,7 @@
       "E":null
    },
    {
-      "Question":"n23. You create a config UI based on the uniform request custom generic object. As shown in thenscreen shot. What field must have ID externalCode to display the UI in the people profile?n",
+      "Question":"23. You create a config UI based on the uniform request custom generic object. As shown in thenscreen shot. What field must have ID externalCode to display the UI in the people profile?n",
       "Answer":["A"],
       "A":"A. Employeen",
       "B":"B. Shoes Sizen",
@@ -207,7 +207,7 @@
       "E":null
    },
    {
-      "Question":"n24. Which permissions controls the users access to the edit button in the history of job ninformation?n",
+      "Question":"24. Which permissions controls the users access to the edit button in the history of job ninformation?n",
       "Answer":["C"],
       "A":"A. Job information actions>view historyn",
       "B":"B. Job Information actions>correctn",
@@ -216,7 +216,7 @@
       "E":null
    },
    {
-      "Question":"n25. You are helping your client to extend their employee central footprint to their subsidiary in nChina. You have added translations for the foundation object (FO. records in the client nsystem in simplified Chinese. In provisioning, the setting shown in the screenshot is nmaintainednOne of the testers logs into the instance and changes the logon language to simplified nChinese. What translations of FO records will the tester see in the instance?nNote: there are 3 correct answers to this questionn",
+      "Question":"25. You are helping your client to extend their employee central footprint to their subsidiary in nChina. You have added translations for the foundation object (FO. records in the client nsystem in simplified Chinese. In provisioning, the setting shown in the screenshot is nmaintainednOne of the testers logs into the instance and changes the logon language to simplified nChinese. What translations of FO records will the tester see in the instance?nNote: there are 3 correct answers to this questionn",
       "Answer":["B","C","D"],
       "A":"A. If the system does NOT find the translation in simplified Chinese, it will show the ntranslation maintained in Germann",
       "B":"B. If the system finds the translation maintained in simplified Chinese, it will show that ntranslationn",
@@ -225,7 +225,7 @@
       "E":"E. If the system does NOT find the translation in Simplified Chinese or in German, it will nshow an errorn"
    },
    {
-      "Question":"n26. In your implementation project, the client requires that the pay grade field in the job ninformation portlet be automatically filled after the job classification field value is keyed in nfor an employee. How will you achieve this?nNote: There are 2 correct answers to this questionn",
+      "Question":"26. In your implementation project, the client requires that the pay grade field in the job ninformation portlet be automatically filled after the job classification field value is keyed in nfor an employee. How will you achieve this?nNote: There are 2 correct answers to this questionn",
       "Answer":["A","B"],
       "A":"A. To Create a business rule with Job Information as the base objectn",
       "B":"B. Add an onChange rule trigger to the job code HRIS field in the succession data modeln",
@@ -234,7 +234,7 @@
       "E":null
    },
    {
-      "Question":"n27. Which foundation objects are configured in the corporate data model?n",
+      "Question":"27. Which foundation objects are configured in the corporate data model?n",
       "Answer":["B","D","E"],
       "A":"A. Cost centern",
       "B":"B. Pay Rangen",
@@ -243,7 +243,7 @@
       "E":"E. Event reasonn"
    },
    {
-      "Question":"n28. Which field data types use a valid values source configuration in a generic object?nNote: There are 3 correct answers to this questionn",
+      "Question":"28. Which field data types use a valid values source configuration in a generic object?nNote: There are 3 correct answers to this questionn",
       "Answer":["A","C","D"],
       "A":"A. Picklistn",
       "B":"B. Usern",
@@ -252,7 +252,7 @@
       "E":"E. Attachmentn"
    },
    {
-      "Question":"n29. What do you use to create hierarchical structures between foundation objects?n",
+      "Question":"29. What do you use to create hierarchical structures between foundation objects?n",
       "Answer":["B"],
       "A":"A. Business rulesn",
       "B":"B. Associationsn",
@@ -261,7 +261,7 @@
       "E":null
    },
    {
-      "Question":"n30. You have a requirement to trigger workflows when importing data to the job informationnWhich permission section would allow for this?n",
+      "Question":"30. You have a requirement to trigger workflows when importing data to the job informationnWhich permission section would allow for this?n",
       "Answer":["D"],
       "A":"A. Employee Central Import Entitiesn",
       "B":"B. Employee Central Effective Dated Entitiesn",
@@ -270,7 +270,7 @@
       "E":null
    },
    {
-      "Question":"n31. Which identifier is used to represent the employment of the employee?n",
+      "Question":"31. Which identifier is used to represent the employment of the employee?n",
       "Answer":["A"],
       "A":"A. User IDn",
       "B":"B. Person ID externaln",
@@ -279,7 +279,7 @@
       "E":null
    },
    {
-      "Question":"n32. The escalation shown below is configured in your clientu2019s instance. The escalation is nreferenced in the job change workflow. The job change workflow is triggered for annemployee and the workflow is stalled. In what scenario will the human resources manager nreceive an escalation notification if the manager does NOT take action after 2 days?n",
+      "Question":"32. The escalation shown below is configured in your clientu2019s instance. The escalation is nreferenced in the job change workflow. The job change workflow is triggered for annemployee and the workflow is stalled. In what scenario will the human resources manager nreceive an escalation notification if the manager does NOT take action after 2 days?n",
       "Answer":["C"],
       "A":"A. The manageru2019s manager declines the escalationn",
       "B":"B. The manageru2019s manager revokes the escalationn",
@@ -288,7 +288,7 @@
       "E":null
    },
    {
-      "Question":"n33. What actions can you take within the manage business configuration tool?nNote: There are 3 correct answers to this questionn",
+      "Question":"33. What actions can you take within the manage business configuration tool?nNote: There are 3 correct answers to this questionn",
       "Answer":["B","D","E"],
       "A":"A. Add a custom portlet to the employee filesn",
       "B":"B. Add a custom field to the employee filesn",
@@ -297,7 +297,7 @@
       "E":"E. Change the visibility of a field to read onlyn"
    },
    {
-      "Question":"n34. Where can you create new positions?nNote: there are 3 correct answers to this questionn",
+      "Question":"34. Where can you create new positions?nNote: there are 3 correct answers to this questionn",
       "Answer":["A","B","E"],
       "A":"A. In the position org chartn",
       "B":"B. In the manage data tooln",
@@ -306,7 +306,7 @@
       "E":"E. In manage positionsn"
    },
    {
-      "Question":"n35. How do you control which fields can be seen on a contingent workeru2019s employee file?nNote: there are 2 correct answers to this questionn",
+      "Question":"35. How do you control which fields can be seen on a contingent workeru2019s employee file?nNote: there are 2 correct answers to this questionn",
       "Answer":["B","D"],
       "A":"A. Configure people profilen",
       "B":"B. Role-Based permissionsn",
@@ -315,7 +315,7 @@
       "E":null
    },
    {
-      "Question":"n36. Event reason and workflow derivation have been setup for a customer. The customer is nusing the mass changes tool to move 1000 employees to another location. But they do NOT nwant the change to trigger a workflow. How is this handled?n",
+      "Question":"36. Event reason and workflow derivation have been setup for a customer. The customer is nusing the mass changes tool to move 1000 employees to another location. But they do NOT nwant the change to trigger a workflow. How is this handled?n",
       "Answer":["B"],
       "A":"A. Set the Rule context for mass changes to YESn",
       "B":"B. Set the Rule context for mass changes to NOn",
@@ -324,7 +324,7 @@
       "E":null
    },
    {
-      "Question":"n37. Which standard field is always required in a generic object?n",
+      "Question":"37. Which standard field is always required in a generic object?n",
       "Answer":["C"],
       "A":"A. InternalCoden",
       "B":"B. effectiveStartDaten",
@@ -333,7 +333,7 @@
       "E":null
    },
    {
-      "Question":"n38. When creating a new generic object, you want to add a field that references a legal entity nobject. How do you configure this?n",
+      "Question":"38. When creating a new generic object, you want to add a field that references a legal entity nobject. How do you configure this?n",
       "Answer":["D"],
       "A":"A. Create a picklist of all legal entities and add it to the new fieldn",
       "B":"B. Choose Foundation object as data type for the new field and add LegalEntity as the valid nvalue sourcen",
@@ -342,7 +342,7 @@
       "E":null
    },
    {
-      "Question":"n39. What is the data type of the Currency field on the LegalEntity object?n",
+      "Question":"39. What is the data type of the Currency field on the LegalEntity object?n",
       "Answer":["B"],
       "A":"A. Enumn",
       "B":"B. Generic Objectn",
@@ -351,7 +351,7 @@
       "E":null
    },
    {
-      "Question":"n40. How do you align position records to reflect associations built between division and ndepartment?n",
+      "Question":"40. How do you align position records to reflect associations built between division and ndepartment?n",
       "Answer":["D"],
       "A":"A. Create filter criteria in the position org chartn",
       "B":"B. Create Sync job to copy data from job info to the position recordn",
