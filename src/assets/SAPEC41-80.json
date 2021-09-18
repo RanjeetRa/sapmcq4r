@@ -19,7 +19,7 @@
    },
    {
       "Question":"43. When using import employee data, what must you include in your import file for employee ncentral data?n",
-      "Answer":["A"],
+      "Answer":["C"],
       "A":"A. All fields for the objectn",
       "B":"B. User ID fieldn",
       "C":"C. Person ID fieldn",
@@ -280,7 +280,7 @@
    },
    {
       "Question":"72. When creating a parent-child association, which object do you reference as the destination nobject?n",
-      "Answer":["D"],
+      "Answer":["A"],
       "A":"A. Parent objectn",
       "B":"B. XML objectn",
       "C":"C. MDF objectn",
