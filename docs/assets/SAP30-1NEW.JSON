@@ -550,7 +550,7 @@
    },
    {
       "Question":"62. What can an administrator do with the Launch forms tool? Note: There are 3 correct answers to this question ",
-      "Answer":["A","C","D"],
+      "Answer":["B","C","D"],
       "A":"A. Disable Ask for Feedback functionality for the forms being launched",
       "B":"B. Set Specific form template dates for the forms being launched",
       "C":"C. Select employees from Dynamic Groups",
