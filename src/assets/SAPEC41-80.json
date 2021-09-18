@@ -1,0 +1,362 @@
+[
+   {
+      "Question":"41. Your customer wants to create an association with the requirement that one division can nbelong to many business units. What association do you need to build?n",
+      "Answer":["B"],
+      "A":"A. A Composite association in the division object definitionn",
+      "B":"B. A Valid when association in the division object definitionn",
+      "C":"C. A Valid When association in the business unit object definitionn",
+      "D":"D. A Composite association in the business unit object definitionn",
+      "E":null
+   },
+   {
+      "Question":"42. A Customer has scheduled an HRIS sync job to run every Friday, which includes mapping of njob titles. On Tuesday an employeeu2019s job title is changed via manager self service (MSS. to nbecome effective on Thursday. When will the synchronization happen?n",
+      "Answer":["D"],
+      "A":"A. Thursday, when the change becomes effectiven",
+      "B":"B. Saturday, the day after the sync job completesn",
+      "C":"C. Tuesday, the day the transaction is enteredn",
+      "D":"D. Friday, when the sync job completesn",
+      "E":null
+   },
+   {
+      "Question":"43. When using import employee data, what must you include in your import file for employee ncentral data?n",
+      "Answer":["A"],
+      "A":"A. All fields for the objectn",
+      "B":"B. User ID fieldn",
+      "C":"C. Person ID fieldn",
+      "D":"D. Business Key fieldsn",
+      "E":null
+   },
+   {
+      "Question":"44. You are creating a new hire rule that will trigger on the job information base object when nhiring a new employee. Which steps would ensure that this rule triggers?nNote : There are 2 correct answers to this questionn",
+      "Answer":["A","D"],
+      "A":"A. In the manage business configuration tool, add the rule to the job information HRIS nelementn",
+      "B":"B. In the succession Data model, add the rule to the end of the new hire information nstandard elementn",
+      "C":"C. In the manage business configuration tool, add the rule to the job information standard nelementn",
+      "D":"D. In the succession data model, add the rule to the end of the job information HRIS nelementn",
+      "E":null
+   },
+   {
+      "Question":"45. What is an accurate description of Else logic when creating a business rule?n",
+      "Answer":["B"],
+      "A":"A. How the system reacts to the conditions in the if Statementn",
+      "B":"B. Which condition needs to be met when the if statement is NOT truen",
+      "C":"C. How the system reacts if the if condition is NOT truen",
+      "D":"D. Which condition needs to be met before the system actions defined in the Thennstatement are executedn",
+      "E":null
+   },
+   {
+      "Question":"46. What happens when you select private data for proxy account holder in proxy management?n",
+      "Answer":["D"],
+      "A":"A. The proxy does NOT have access to potentially sensitive informationn",
+      "B":"B. The proxy can edit the private information of the account holdern",
+      "C":"C. The proxy can open, view, edit or send any item for which the account holder has npermissionsn",
+      "D":"D. The proxy has access to private information for which the account holder has npermissionsn",
+      "E":null
+   },
+   {
+      "Question":"47. In which section in the manage permission role tool will you set the visibility for the date of nbirth field in the biographical information?n",
+      "Answer":["D"],
+      "A":"A. Employee viewn",
+      "B":"B. Employee Central Effective Dated Entitiesn",
+      "C":"C. Manager Usern",
+      "D":"D. Employee Datan",
+      "E":null
+   },
+   {
+      "Question":"48. How can you configure event reason derivation rules to improve performance?n",
+      "Answer":["B"],
+      "A":"A. Configure the rule event type to onInitn",
+      "B":"B. Configure the rule event type to onChangen",
+      "C":"C. Configure the rule context to editUIn",
+      "D":"D. Configure the rule context for hireUIn",
+      "E":null
+   },
+   {
+      "Question":"49. Which of the following blocks allow you to use business rules for triggering event reason nderivation?nNote : there are 2 correct answers to this questionn",
+      "Answer":["A","D"],
+      "A":"A. Job Informationn",
+      "B":"B. Personal Informationn",
+      "C":"C. Job Relationshipsn",
+      "D":"D. Compensation Informationn",
+      "E":null
+   },
+   {
+      "Question":"50. Which of the following associations is a one-to-one association?nNote : there are 2 correct answers to this questionn",
+      "Answer":["A","B"],
+      "A":"A. Pay Range to Legal Entityn",
+      "B":"B. Location to Geozonen",
+      "C":"C. Location to Legal Entityn",
+      "D":"D. Department to Divisionn",
+      "E":null
+   },
+   {
+      "Question":"51. Which person objects support country specific fields?nNote : There are 2 correct answers to this questionn",
+      "Answer":["A","C"],
+      "A":"A. nationalIDcardn",
+      "B":"B. emailInfon",
+      "C":"C. globalInfon",
+      "D":"D. personInfon",
+      "E":null
+   },
+   {
+      "Question":"52. Which data type must you use when adding a field to reference legal entity in an MDF nobject?n",
+      "Answer":["C"],
+      "A":"A. Picklistn",
+      "B":"B. Foundation objectn",
+      "C":"C. Generic Objectn",
+      "D":"D. Data Sourcen",
+      "E":null
+   },
+   {
+      "Question":"53. Which of the following are requirements to build a company structure overview with nmultiple objects?nNote : There are 2 correct answers to this questionn",
+      "Answer":["A","C"],
+      "A":"A. Objects must be MDF objectsn",
+      "B":"B. Objects must be XML based foundation objectsn",
+      "C":"C. Objects must have a valid when associationn",
+      "D":"D. Objects must have a composite associationn",
+      "E":null
+   },
+   {
+      "Question":"54. In your project, the client asks for a mechanism by which a workflow can be approved by any none of a pool of people. Which tool would you use to configure the group?n",
+      "Answer":["A"],
+      "A":"A. Manage workflow groupsn",
+      "B":"B. Manage Workflow requestsn",
+      "C":"C. Manage Dynamic Groupsn",
+      "D":"D. Manager Permisison Groupsn",
+      "E":null
+   },
+   {
+      "Question":"55. A legal entity record with an effective start date of today can be associated with which nlocation record?nNote : There are 2 correct answers to this questionn",
+      "Answer":["A","B"],
+      "A":"A. A location record with an effective start date of 01/01/1900n",
+      "B":"B. A location record with an effective start date of todayn",
+      "C":"C. A location record with an effective start date of 1 month from nown",
+      "D":"D. A location record with an effective start date of 1 month agon",
+      "E":null
+   },
+   {
+      "Question":"56. How do you define event reasons country specific?nNote : There are 3 correct answers to tis questionn",
+      "Answer":["A","B","E"],
+      "A":"A. Create an association with the destination object with an event reason wrapper with ntype join by Columnsn",
+      "B":"B. Create an association with the destination object Event Reason wrapper with type nCompositen",
+      "C":"C. Make a correction to the definition of the country objectn",
+      "D":"D. Add the event reason country records as per your requirements in the manage data tooln",
+      "E":"E. Create an association with the destination object with an event reason wrapper with ntype valid whenn"
+   },
+   {
+      "Question":"57. Which business rules scenario is used to set default values or visibility attributes during the nhire process?n",
+      "Answer":["A"],
+      "A":"A. Rules for Hire/Rehiren",
+      "B":"B. Generate Employee ID for Hire/Rehiren",
+      "C":"C. Enforce New employment for Rehiren",
+      "D":"D. Internal Job Historyn",
+      "E":null
+   },
+   {
+      "Question":"58. Which methods of modifying employee data trigger event reason derivation?nNote: There are 2 correct answers to this questionn",
+      "Answer":["A","D"],
+      "A":"A. Use the Take Action menun",
+      "B":"B. Insert a new recordn",
+      "C":"C. Add a new employeen",
+      "D":"D. Use the pencil iconn",
+      "E":null
+   },
+   {
+      "Question":"59. You are translating the job title field of the engineer job classiciation so that users in ndifferent countries can see the job title in their own languagenWhere do you add this translation?n",
+      "Answer":["C"],
+      "A":"A. In the manage organization, pay and job structures tooln",
+      "B":"B. In the corporate data modeln",
+      "C":"C. In the manage data tooln",
+      "D":"D. In the configure object definitions tooln",
+      "E":null
+   },
+   {
+      "Question":"60. What tool can be used to enable employees to initiate changes to their own employee data?n",
+      "Answer":["A"],
+      "A":"A. Manage permission rolesn",
+      "B":"B. Import employee datan",
+      "C":"C. Configure employee filesn",
+      "D":"D. Manage user datan",
+      "E":null
+   },
+   {
+      "Question":"61. The event reason derivation business rules scenario creating which type of business rule?n",
+      "Answer":["A"],
+      "A":"A. OnChangen",
+      "B":"B. OnPostSaven",
+      "C":"C. OnEditn",
+      "D":"D. OnSaven",
+      "E":null
+   },
+   {
+      "Question":"62. You have configured a custom field in the employment information portlet of the succession ndata model as follows :nYou edit the employment information portlet of an existing employee file and the u201cRemote nWorker?u201d field only displays No selection in the dropdown list. What is most likely issue?n",
+      "Answer":["C"],
+      "A":"A. The field visibility attribute is incorrectn",
+      "B":"B. The RBP permissions are incorrectn",
+      "C":"C. The picklist ID is incorrectn",
+      "D":"D. The field datatype is incorrectn",
+      "E":null
+   },
+   {
+      "Question":"63. How do you enable a company structure overview? nNote: there are 3 correct answers to this questionn",
+      "Answer":["A","C","D"],
+      "A":"A. Assign permissions to the company structure objectsn",
+      "B":"B. Configure the new field in the legal entity recordsn",
+      "C":"C. Enable the feature in manage employee central settingsn",
+      "D":"D. Configure the company structure definition recordn",
+      "E":"E. Add a field to the legal entity in configure object definitionsn"
+   },
+   {
+      "Question":"64. Which object requires entity-type to be configured in HRIS sync mapping?n",
+      "Answer":["B"],
+      "A":"A. personInfon",
+      "B":"B. phoneInfon",
+      "C":"C. compInfon",
+      "D":"D. jobInfon",
+      "E":null
+   },
+   {
+      "Question":"65. what does SAP SuccessFactors recommend to create new and custom associations between nfoundation objects (FO)?n",
+      "Answer":["D"],
+      "A":"A. All new and custom associations should be built between an MDF FO and another MDF nFOn",
+      "B":"B. All new and custom associations should be built as one-to-onen",
+      "C":"C. All new and custom associations should be built between an XML FO and another XML nFOn",
+      "D":"D. All new and custom associations should be built as one-to-manyn",
+      "E":null
+   },
+   {
+      "Question":"66. What must be done to ensure that you can connect a custom generic (MDF. object to the nemployee files?nNote : there are 2 correct answers to this questionn",
+      "Answer":["A","C"],
+      "A":"A. Create atleast one configuration UI for the objectn",
+      "B":"B. Set the externalCode field to Read onlyn",
+      "C":"C. Set the externalCode field to Data type=Usern",
+      "D":"D. Create a valid when association for the objectn",
+      "E":null
+   },
+   {
+      "Question":"67. Your client has as requirement to create an escalation path for their new hire workflownWhich seps will you follow to configure this escalation path?nNote :there are 2 correct answers to this questionn",
+      "Answer":["A","D"],
+      "A":"A. Create the escalation path using the Manage Organization, Pay and Job Structures tooln",
+      "B":"B. In the succession Data Model, confirm that the HRIS field escalation is enabled for HRIS nelement wfConfign",
+      "C":"C. Create the escalation path using the manage data tooln",
+      "D":"D. In the corporate data model, confirm that the HRIS field escalation is enabled for HRIS nelement wfConfign",
+      "E":null
+   },
+   {
+      "Question":"68. Which import file creates a user in the system?n",
+      "Answer":["A"],
+      "A":"A. Basic Import filen",
+      "B":"B. Job History filen",
+      "C":"C. Biographical Information filen",
+      "D":"D. Employment Details filen",
+      "E":null
+   },
+   {
+      "Question":"69. What can you do when creating the config UI for the generic object?nNote : There are 3 correct answers to this questionn",
+      "Answer":["A","C","E"],
+      "A":"A. Add a new fieldn",
+      "B":"B. Change the data type for a fieldn",
+      "C":"C. Remove a fieldn",
+      "D":"D. Add a picklist to a fieldn",
+      "E":"E. Move fields to different positionsn"
+   },
+   {
+      "Question":"70. Which steps are required to setup the auto delegation feature for a workflow in employee ncentral?nNote : There are 3 correct answers to this questionn",
+      "Answer":["A","C","D"],
+      "A":"A. You add HRIS field is-delegated-supported to the corporate data modeln",
+      "B":"B. You add HRIS field is-delegate-supported to the Succession data modeln",
+      "C":"C. The user sets up Auto delegate through quick links tile in their homepagen",
+      "D":"D. You configure workflow with the Is delegate supported field set to yesn",
+      "E":"E. The user sets up auto delegate using the manage organization pay and job structures ntooln"
+   },
+   {
+      "Question":"71. When importing an employee data file, what happens if you leave fields of a template blank nand attempt to full purge?n",
+      "Answer":["D"],
+      "A":"A. The system gives you an error messagen",
+      "B":"B. Missing fields will get default valuesn",
+      "C":"C. Missing fields are added with blank valuesn",
+      "D":"D. All data will be erased for those fieldsn",
+      "E":null
+   },
+   {
+      "Question":"72. When creating a parent-child association, which object do you reference as the destination nobject?n",
+      "Answer":["D"],
+      "A":"A. Parent objectn",
+      "B":"B. XML objectn",
+      "C":"C. MDF objectn",
+      "D":"D. Child objectn",
+      "E":null
+   },
+   {
+      "Question":"73. Which employment objects support country-specific fields? nNote : There are 2 correct answers to this questionn",
+      "Answer":["A","C"],
+      "A":"A. Job Informationn",
+      "B":"B. Pay Component Recurringn",
+      "C":"C. Employment Detailsn",
+      "D":"D. Job Relationship Infon",
+      "E":null
+   },
+   {
+      "Question":"74. You have configured a custom field in the employment information portlet of the succession ndata model as followsnYou access the employee file and the field is NOT visible. What is the most likely issues?n",
+      "Answer":["A"],
+      "A":"A. The RBP permissions are incorrectn",
+      "B":"B. The picklist ID is incorrectn",
+      "C":"C. The picklist syntax is incorrectn",
+      "D":"D. The field visibility attribute is incorrectn",
+      "E":null
+   },
+   {
+      "Question":"75. A customer needs to create a custom field that appears only for legal entity records with a ncountry of France. How do you create the required field?n",
+      "Answer":["C"],
+      "A":"A. Create a field in the legalEntity HRIS element in the CSF for corporate data modeln",
+      "B":"B. Create a field in the legalEntity frnace object in configure object definitionn",
+      "C":"C. Create a field in the legalEntity object in configure object definition. Add field criteria to nonly display the field when country is Francen",
+      "D":"D. Create a field in the legalEntity HRIS element the corporate data model. Add field criteria nto only display the field when the country is Francen",
+      "E":null
+   },
+   {
+      "Question":"76. What must be created before you synchronize position information and employment ninformation?n",
+      "Answer":["D"],
+      "A":"A. A new job in the manage scheduled jobs tooln",
+      "B":"B. A new association in the position generic (MDF. objectn",
+      "C":"C. A new mapping in the HRIS sync data modeln",
+      "D":"D. A new business rule in the configure business rules tooln",
+      "E":null
+   },
+   {
+      "Question":"77. During initial testing in an implementation, you need to create 8 cost center foundation nobject records. What tools can you use to create the records?n",
+      "Answer":["B","D","E"],
+      "A":"A. Manage organization, pay and job structuresn",
+      "B":"B. Manage datan",
+      "C":"C. Configure Object definitionn",
+      "D":"D. Import and export datan",
+      "E":"E. Import foundation datan"
+   },
+   {
+      "Question":"78. Which HRIS fields are always required for HRIS element payComponentNonRecurring in the nsuccession data model? nNote : There are 3 correct answers to this questionn",
+      "Answer":["A","B","D"],
+      "A":"A. pay-daten",
+      "B":"B. valuen",
+      "C":"C. Frequencyn",
+      "D":"D. Pay-component-coden",
+      "E":"E. Paycompvaluen"
+   },
+   {
+      "Question":"79. Which fields would commonly be included in a position record that would NOT be included nin a job classification record?nNote : There are 2 correct answers to this questionn",
+      "Answer":["C","D"],
+      "A":"A. Pay Graden",
+      "B":"B. Job Titlen",
+      "C":"C. Business Unitn",
+      "D":"D. Divisionn",
+      "E":null
+   },
+   {
+      "Question":"80. A business rule triggers a transfer event reason when an employeeu2019s location is changednWhich base object would you use for this business rule?n",
+      "Answer":["A"],
+      "A":"A. Job Information modeln",
+      "B":"B. Employee information modeln",
+      "C":"C. Job informationn",
+      "D":"D. Employee informatio",
+      "E":null
+   }
+]

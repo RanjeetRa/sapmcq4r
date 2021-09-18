@@ -4,6 +4,9 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class Flagshareec2Service {
+  counter :any;
 
-  constructor() { }
+  constructor() {
+    this.counter = 0;
+   }
 }

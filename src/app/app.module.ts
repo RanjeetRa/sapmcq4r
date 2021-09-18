@@ -9,6 +9,7 @@ import { HelperComponent } from './helper/helper.component';
 import { Sapecpart1Component } from './sapecpart1/sapecpart1.component';
 import { HomeComponent } from './home/home.component';
 import { SappgdmComponent } from './sappgdm/sappgdm.component';
+import { Sapecpart2Component } from './sapecpart2/sapecpart2.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SappgdmComponent } from './sappgdm/sappgdm.component';
     HelperComponent,
     Sapecpart1Component,
     HomeComponent,
-    SappgdmComponent
+    SappgdmComponent,
+    Sapecpart2Component
   ],
   imports: [
     BrowserModule,

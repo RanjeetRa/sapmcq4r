@@ -4,13 +4,14 @@ import { Sapecpart1Component } from './sapecpart1/sapecpart1.component';
 // import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SappgdmComponent } from './sappgdm/sappgdm.component';
+import { Sapecpart2Component } from './sapecpart2/sapecpart2.component';
 
 //const routes: Routes = [];
 const appRoutes: Routes = [
   { path: '',   component: HomeComponent },
   { path: 'sapec1', component: Sapecpart1Component },
   { path: 'sappgdm', component: SappgdmComponent },
-  { path: 'sapec2', component: Sapecpart1Component },
+  { path: 'sapec2', component: Sapecpart2Component },
 
 ];
 
