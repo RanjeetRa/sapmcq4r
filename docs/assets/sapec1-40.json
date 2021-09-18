@@ -1,7 +1,7 @@
 [
    {
       "Question":"1. Which of the following are features of picklists created in the picklist center?nNote: There are 2 correct answers to this questionn",
-      "Answer":["A","B"],
+      "Answer":["A","C"],
       "A":"A. Picklists are effectively datedn",
       "B":"B. Unused values in a picklist can be marked as OBSOLETEDn",
       "C":"C. Picklists are used for generic objectsn",
@@ -28,7 +28,7 @@
    },
    {
       "Question":"4. Which HR objects support import restrictions?nNote: There are 3 correct answers to this questionn",
-      "Answer":["B","C","E"],
+      "Answer":["B","D","E"],
       "A":"A. Employment Detailsn",
       "B":"B. Job Informationn",
       "C":"C. Personal Informationn",
@@ -37,7 +37,7 @@
    },
    {
       "Question":"5. You want to add custom field in the job information block on the employee file and make it nvisible for 2 countries, but NOT visible for the other 8 countries.nHow can you do this?n",
-      "Answer":["B"],
+      "Answer":["A"],
       "A":"A. Enable the custom field in job information and add the custom field in the 2 country nspecific job information with edit visibilityn",
       "B":"B. Enable the custom field in the country specific job information and use a business rules nto set edit visibility for the 2 countriesn",
       "C":"C. Enable the custom field in job information and use a business rule to set edit visibility for nthe 2 countriesn",
@@ -46,7 +46,7 @@
    },
    {
       "Question":"6. Which pages support onInit business rules?nNote: there are 2 correct answers for this questionn",
-      "Answer":["C","D"],
+      "Answer":["B","D"],
       "A":"A. Job Information History pagen",
       "B":"B. Manage Organization, Pay and Job Structuresn",
       "C":"C. Personal Information Edit Pagen",
@@ -91,7 +91,7 @@
    },
    {
       "Question":"11. Which admin center tools would you use to configure the visibility and mandatory field nattributes of legacy and MDF foundation objects?n",
-      "Answer":["A","B","E"],
+      "Answer":["B","D","E"],
       "A":"A. Configure object definitionsn",
       "B":"B. Import/Export corporate data modeln",
       "C":"C. Manage business configurationn",
@@ -181,7 +181,7 @@
    },
    {
       "Question":"21. You have been tasked with updating the job title of the mechanical engineer position record. nThe mechanical engineer record currently has four incumbentsnWhich action will ensure that you will NOT receive the option to synchronize the change to nthe incumbents?n",
-      "Answer":["C"],
+      "Answer":["D"],
       "A":"A. Modify the record with Manage Positionn",
       "B":"B. Modify the record with Manage datan",
       "C":"C. Modify the record with the manage link on the position quick cardn",
@@ -190,7 +190,7 @@
    },
    {
       "Question":"22. How is a country specific field created for MDF foundation objects?n",
-      "Answer":["D"],
+      "Answer":["C"],
       "A":"A. As an HRIS element in the corporate data model with a composite association to the nMDF foundation objectn",
       "B":"B. As a generic object with a composite associate to the MDF foundation objectn",
       "C":"C. As an HRIS element in the CSF for corporate data model with a valid when association to nthe MDF foundation objectn",
